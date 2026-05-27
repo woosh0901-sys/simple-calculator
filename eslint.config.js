@@ -2,7 +2,7 @@ import globals from "globals";
 export default [
  {
  files: ["src/**/*.js"],
- anguageOptions: {
+ languageOptions: {
  ecmaVersion: "latest",
  sourceType: "module",
  globals: { ...globals.browser },
@@ -13,7 +13,7 @@ export default [
  },
  },
  {
- files: ["tests/**/*.js"],
+ files: ["test/**/*.js"],
  languageOptions: {
  ecmaVersion: "latest",
  sourceType: "module",
